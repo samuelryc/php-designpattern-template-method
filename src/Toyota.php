@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Car extends Vehicule
+class Toyota extends Vehicule
 {
     protected function addEngine() 
     {

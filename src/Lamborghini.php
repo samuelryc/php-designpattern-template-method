@@ -2,11 +2,11 @@
 
 namespace App;
 
-class SportsCar extends Vehicule
+class Lamborghini extends Vehicule
 {
     protected function addEngine() 
     {
-        echo ("\nAdding fast engine");
+        echo ("\nAdding very fast engine");
 
         return $this;
     }

@@ -4,7 +4,7 @@ namespace App;
 
 abstract class Vehicule 
 {
-    public function assemble() 
+    public function build() 
     {
         return $this
         ->buildStructure()
